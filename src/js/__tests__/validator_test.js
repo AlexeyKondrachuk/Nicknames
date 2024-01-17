@@ -1,4 +1,4 @@
-import Validator from '../app';
+import Validator from '../../js/app';
 
 test('Метод должен вернуть true, если строка содержит только латинские буквы, тире -, подчёркивания _ и цифры (0-9)', () => {
   const validated = new Validator();
